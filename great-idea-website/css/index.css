@@ -58,6 +58,11 @@ html, body {
 	padding: 0 100px;
 }
 
+html, footer{
+	justify-content: center;
+	padding: 30px 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
@@ -101,8 +106,29 @@ h1, h2, h3, h4, h5 {
 	padding: 30px 0;
 }
 
+.container1{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	border-bottom: 2px solid black;
+}
+
 .column{
 	padding: 0 10px;
+}
+
+.info p{
+	padding: 15px 0;
+
+}
+
+.Copyright{
+
+	text-align: center;
+}
+
+.middle-img{
+	width: 100%;
 }
 
 /* Your code starts here! */
